@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(asctime)s -
 
 # Criando o pipeline options
 pipeline_options = {
-    'project': 'teste-templates-420021',
+    'project': 'id_do projeto',
     'runner': 'DataflowRunner',
     'region': 'southamerica-east1',
     'staging_location': 'gs://teste-hello-word/staging',
